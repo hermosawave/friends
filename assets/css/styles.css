@@ -115,7 +115,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: cornflowerblue;
+  color: #336699;
 }
 
 img {
@@ -151,7 +151,7 @@ nav .current {
 }
 
 nav a .hwp {
-  color: cornflowerblue;
+  color: #336699;
 }
 
 #img1 {
@@ -222,7 +222,6 @@ p.subtitle {
   text-align: center;
   padding: 8px 0 8px 0;
   margin: 20px 0 0 0;
-  background-color: #333;
   font-size: 9pt;
   line-height: 12pt;
   text-transform: uppercase;
@@ -241,7 +240,7 @@ p.subtitle {
 }
 
 .post-nav a:hover {
-  color: cornflowerblue;
+  color: #336699;
 }
 
 .thumbnavleft {
