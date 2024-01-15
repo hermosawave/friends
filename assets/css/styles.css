@@ -22,19 +22,20 @@ body {
   background-color: rgb(60, 63, 68);
   margin: 0 0 10px 0;
   padding: 0 0 20px 0;
-  color: #333;
+  color: #000;
   width: 100%;
 }
 
 .mainbody {
-  background-color: #f0f0f0;
+  background-color: #ede4dc;
   margin: 0 5% 20px 5%;
   padding: 0;
   max-width: 2048px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  border: 1px solid #fff;
+  border: 3px solid #fff;
   border-top: none;
+  filter: drop-shadow(5px 5px 5px #000000);
 }
 
 .fullwidth {
@@ -61,7 +62,7 @@ body {
 p {
   font-weight: 300;
   font-style: normal;
-  font-size: 11pt;
+  font-size: 12pt;
   line-height: 17pt;
   padding-bottom: 15px;
   margin: 0;
@@ -87,9 +88,9 @@ h1 {
 }
 
 h2 {
-  font-size: 22pt;
-  line-height: 26pt;
-  padding: 20px 0 10px 0;
+  font-size: 20pt;
+  line-height: 24pt;
+  padding: 20px 0 0px 0;
 }
 
 h3 {
@@ -107,13 +108,29 @@ h4 {
   font-weight: 300;
 }
 
+.topbody ul li {
+  line-height: 17pt;
+  margin-bottom: 10px;
+}
+
 a {
-  color: #000;
+  color: #125;
   text-decoration: none;
   margin: 0 1px;
 }
 
 a:hover {
+  text-decoration: none;
+  color: #336699;
+}
+
+.topbody a {
+  color: #125;
+  text-decoration: underline;
+  margin: 0 1px;
+}
+
+.topbody a:hover {
   text-decoration: none;
   color: #336699;
 }
@@ -151,7 +168,8 @@ nav .current {
 }
 
 nav a .hwp {
-  color: #336699;
+  /* color:#336699; */
+  font: bold;
 }
 
 #img1 {
@@ -172,6 +190,15 @@ p.subtitle {
   letter-spacing: 3px;
   text-transform: uppercase;
   margin: 0;
+  padding: 0;
+}
+
+p.fineprint {
+  font-weight: 500;
+  font-size: 9pt;
+  letter-spacing: 2;
+  text-transform: none;
+  margin: 50 0 0 0;
   padding: 0;
 }
 
@@ -251,19 +278,19 @@ p.subtitle {
   margin-left: 1%;
 }
 
-/* // Footer stuff // */
+/* ///// Footer stuff ///// */
 footer {
   clear: both;
   text-transform: uppercase;
   letter-spacing: 1px;
-  background: #ddd;
+  background: #665;
   margin: 0;
   padding: 20px 3%;
   font-size: 8pt;
   line-height: 12pt;
-  color: #666;
+  color: #bbb;
   text-align: center;
-  border-top: 1px #fff solid;
+  border-top: 2px #fff dotted;
   display: flex;
   gap: 10px;
   flex-flow: row wrap;
@@ -289,11 +316,15 @@ footer .navitem {
   display: block;
   font-size: 8pt;
   line-height: 12pt;
-  color: #333;
+  color: #444;
 }
 
-footer a {
-  color: #000;
+footer a, footer nav a {
+  color: #fff;
+}
+
+footer a:hover, footer nav a:hover, footer nav a.hwp:hover {
+  color: rgb(255, 192, 32);
 }
 
 footer img.calendar_thumb {
