@@ -81,16 +81,16 @@ h4, h5, h6 {
 }
 
 h1 {
-  font-size: 26pt;
+  font-size: 28pt;
   line-height: 30pt;
   padding: 0;
   margin: 10px 0 20px 0;
 }
 
 h2 {
-  font-size: 20pt;
+  font-size: 22pt;
   line-height: 24pt;
-  padding: 20px 0 0px 0;
+  padding: 20px 0 10px 0;
 }
 
 h3 {
@@ -165,7 +165,7 @@ nav {
   font-weight: 300;
   text-transform: uppercase;
   padding: 20px 3% 20px 3%;
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
 }
 
 .navitem {
@@ -321,12 +321,12 @@ footer {
   clear: both;
   text-transform: uppercase;
   letter-spacing: 1px;
-  background: #665;
+  background: #707066;
   margin: 0;
   padding: 20px 3%;
   font-size: 8pt;
   line-height: 12pt;
-  color: #bbb;
+  color: #ccc;
   text-align: center;
   border-top: 2px #fff dotted;
   display: flex;
@@ -522,7 +522,7 @@ h3.en {
       */
   nav {
     padding: 10px 20px 10px 20px;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     font-size: 8pt;
   }
   .post-nav {
