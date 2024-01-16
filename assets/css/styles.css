@@ -140,6 +140,25 @@ img {
   border-radius: 6px;
 }
 
+figcaption, img + figcaption, img + caption {
+  text-align: center;
+  font-size: 10pt;
+  margin-top: 0;
+  border-top: 0;
+  color: #666;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.max-width {
+  max-width: 800px;
+}
+
 nav {
   font-size: 10pt;
   line-height: 20pt;
@@ -243,18 +262,37 @@ p.fineprint {
   color: green;
 }
 
+/*　Subimages (secondary images on main photo page) */
+.subimagegroup {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.subimage {
+  display: inline-block;
+  width: 45%;
+  overflow: hidden;
+  margin: 10px 2% 30px 2%;
+  padding: 1px;
+  text-align: center;
+  font-size: 9pt;
+  line-height: 14pt;
+  font-weight: 300;
+  vertical-align: middle;
+}
+
 /* Post Navi */
 .post-nav {
   clear: both;
   text-align: center;
-  padding: 8px 0 8px 0;
-  margin: 20px 0 0 0;
+  padding: 10px 0 10px 0;
+  margin: 30px 0 0 0;
   font-size: 9pt;
   line-height: 12pt;
   text-transform: uppercase;
   letter-spacing: 0;
   font-weight: 300;
-  border-top: 1px #000 solid;
+  border-top: 1px #fff solid;
 }
 
 .post-nav div {
