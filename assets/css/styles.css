@@ -2,8 +2,9 @@
 /* @override 
 	https://hermosawavephotography.com/assets/css/styles.css */
 /* Typekit Asian Font Loader 
-  font-family: "noto-sans-cjk-jp", sans-serif; (300, 400, 500, 700, 900)
-  */
+font-family: ryo-gothic-plusn, sans-serif; (200, 400, 700)
+ font-family: "noto-sans-cjk-jp", sans-serif; (300, 400, 500, 700, 900)
+ */
 /* Global Reset & Standards ---------------------- */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
@@ -16,7 +17,7 @@ html {
 }
 
 body {
-  font-family: noto-sans-cjk-jp, sans-serif;
+  font-family: ryo-gothic-plusn, sans-serif;
   background-color: rgb(60, 63, 68);
   margin: 0 0 10px 0;
   padding: 0 0 20px 0;
