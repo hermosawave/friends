@@ -63,7 +63,7 @@ p {
   font-weight: 300;
   font-style: normal;
   font-size: 12pt;
-  line-height: 17pt;
+  line-height: 18pt;
   padding-bottom: 15px;
   margin: 0;
 }
@@ -376,6 +376,22 @@ footer img.calendar_thumb {
   padding: 10px 0;
 }
 
+/* // front page divs // */
+#frontpageleft {
+  width: 48%;
+  float: left;
+}
+
+#frontpageright {
+  width: 48%;
+  float: right;
+}
+
+#frontpageleft .mainimage img,
+#frontpageright .mainimage img {
+  cursor: pointer;
+}
+
 /* ///////////// BILINGUAL FORMATTING ///////////// */
 /* basically only for standard horizontal images, will need to remove for phones */
 /* ///// BILINGUAL NAVIGATION //// */
@@ -384,8 +400,8 @@ footer img.calendar_thumb {
 }
 
 .jp {
-  font-size: 10pt;
-  line-height: 17pt;
+  font-size: 12pt;
+  line-height: 18pt;
 }
 
 .title_jp { /* taken from h2 styles */
