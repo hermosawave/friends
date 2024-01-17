@@ -1,11 +1,9 @@
 @charset "UTF-8";
 /* @override 
 	https://hermosawavephotography.com/assets/css/styles.css */
-/* Typekit Asian Fonts */
-/*
-font-family: ryo-gothic-plusn, sans-serif; (200, 300, 700)
-myriad-pro-semiextended
-*/
+/* Typekit Asian Font Loader 
+  font-family: "noto-sans-cjk-jp", sans-serif; (300, 400, 500, 700, 900)
+  */
 /* Global Reset & Standards ---------------------- */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
@@ -18,7 +16,7 @@ html {
 }
 
 body {
-  font-family: ryo-gothic-plusn, sans-serif;
+  font-family: noto-sans-cjk-jp, sans-serif;
   background-color: rgb(60, 63, 68);
   margin: 0 0 10px 0;
   padding: 0 0 20px 0;
@@ -43,7 +41,7 @@ body {
 }
 
 .topbody {
-  padding: 0 3% 0 3%;
+  padding: 0 6% 0 6%;
 }
 
 .mainimage {
@@ -59,38 +57,39 @@ body {
   position: absolute;
 }
 
-p {
-  font-weight: 300;
+p, li {
+  font-weight: 400;
   font-style: normal;
   font-size: 12pt;
-  line-height: 18pt;
+  line-height: 20pt;
   padding-bottom: 15px;
   margin: 0;
 }
 
 h1, h2, h3 {
-  font-weight: 200;
+  font-weight: 300;
   margin: 10px 0 0 0;
+  letter-spacing: -1px;
 }
 
 h4, h5, h6 {
-  font-weight: 200;
+  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 10px 0 0 0;
 }
 
 h1 {
-  font-size: 28pt;
-  line-height: 30pt;
+  font-size: 30pt;
+  line-height: 32pt;
   padding: 0;
-  margin: 10px 0 20px 0;
+  margin: 10px 0 40px 0;
 }
 
 h2 {
   font-size: 22pt;
   line-height: 24pt;
-  padding: 20px 0 10px 0;
+  padding: 30px 0 10px 0;
 }
 
 h3 {
@@ -109,8 +108,8 @@ h4 {
 }
 
 .topbody ul li {
-  line-height: 17pt;
-  margin-bottom: 10px;
+  /*  line-height: 17pt;
+    margin-bottom: 10px; */
 }
 
 a {
@@ -170,8 +169,8 @@ nav {
   line-height: 20pt;
   font-weight: 300;
   text-transform: uppercase;
-  padding: 20px 3% 20px 3%;
-  /* letter-spacing: 1px; */
+  padding: 20px 6% 20px 6%;
+  letter-spacing: 0.5px;
 }
 
 .navitem {
@@ -221,6 +220,7 @@ p.subtitle {
 p.fineprint {
   font-weight: 500;
   font-size: 9pt;
+  line-height: 11pt;
   letter-spacing: 2;
   text-transform: none;
   margin: 50 0 0 0;
@@ -401,7 +401,7 @@ footer img.calendar_thumb {
 
 .jp {
   font-size: 12pt;
-  line-height: 18pt;
+  line-height: 20pt;
 }
 
 .title_jp { /* taken from h2 styles */
@@ -487,7 +487,7 @@ h3.en {
     padding: 0 7px;
   }
   nav {
-    padding: 15px 3% 14px 3%;
+    padding: 15px 4% 14px 4%;
   }
   .thumbnavleft {
     margin-right: 0;
@@ -571,6 +571,10 @@ h3.en {
     padding: 10px 0;
     margin: 0;
   }
+  h1 {
+    font-size: 22pt;
+    line-height: 26pt;
+  }
   h2 {
     font-size: 16pt;
     line-height: 20pt;
@@ -587,8 +591,8 @@ h3.en {
     line-height: 12pt;
   }
   p {
-    font-size: 10pt;
-    line-height: 16pt;
+    font-size: 12pt;
+    line-height: 18pt;
   }
   /*
      .jp {
@@ -619,7 +623,7 @@ h3.en {
     padding: 0;
   }
   .topbody {
-    padding: 0 10px;
+    padding: 0 20px;
   }
   .mainimageleft {
     height: 75%;
