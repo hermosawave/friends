@@ -417,7 +417,7 @@ h3.jp {
   font-size: 16pt;
   line-height: 20pt;
   margin-bottom: 10px;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 0;
   padding: 0;
 }
@@ -584,8 +584,10 @@ h3.en {
     font-weight: 700; */
   }
   h3 {
-    font-size: 11pt;
-    line-height: 14pt;
+    font-size: 12pt;
+    line-height: 1pt;
+    font-weight: 700;
+    margin-bottom: 10px;
   }
   h4 {
     font-size: 10pt;
