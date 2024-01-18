@@ -654,18 +654,15 @@ h3.en {
     padding: 10px;
     margin: 0;
   }
-  /* 2022 flexbox 
-
   .footer1,
   .footer2,
   .footer3 {
-      display: block;
-      text-align: left;
-      vertical-align: top;
-      margin: 20px 0 ;
-      line-height: 16pt;
+    display: block;
+    text-align: left;
+    vertical-align: top;
+    margin: 20px 0;
+    line-height: 18pt;
   }
-  */
   footer img._thumb {
     max-width: 200px;
     padding: 10px 0;
