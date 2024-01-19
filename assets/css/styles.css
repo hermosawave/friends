@@ -143,7 +143,8 @@ img {
 figcaption, img + figcaption, img + caption {
   text-align: center;
   font-size: 10pt;
-  margin-top: 0;
+  line-height: 12pt;
+  margin: 0 0 20px 0;
   border-top: 0;
   color: #666;
 }
@@ -163,6 +164,25 @@ figcaption, img + figcaption, img + caption {
 
 .max-width {
   max-width: 800px;
+}
+
+.max {
+  max-width: 400px;
+}
+
+.clear {
+  clear: both;
+}
+
+.underline {
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+}
+
+.white {
+  background-color: white;
+  padding: 1px 20px;
+  margin: 10px 1px;
 }
 
 nav {
