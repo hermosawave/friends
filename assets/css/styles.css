@@ -170,6 +170,10 @@ figcaption, img + figcaption, img + caption {
   max-width: 350px;
 }
 
+.small {
+  max-width: 125px;
+}
+
 .clear {
   clear: both;
 }
