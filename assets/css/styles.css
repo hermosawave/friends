@@ -174,6 +174,10 @@ figcaption, img + figcaption, img + caption {
   max-width: 125px;
 }
 
+.thumb {
+  max-width: 100px;
+}
+
 .clear {
   clear: both;
 }
@@ -291,6 +295,89 @@ p.fineprint {
 .buy_button a:hover {
   background: white;
   color: green;
+}
+
+/* Thumbnails */
+.pagenumber {
+  font-size: 12pt;
+}
+
+.thumbnailgroup {
+  margin-top: 10px;
+}
+
+.thumbnailimage {
+  max-height: 240px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.thumbnailimage.phone {
+  width: 120px;
+  text-align: center;
+}
+
+.thumbnail {
+  display: inline-block;
+  /* width: 23%; */
+  overflow: hidden;
+  margin: 10px 1% 20px 5px;
+  padding: 1px;
+  text-align: center;
+  font-size: 9pt;
+  line-height: 12pt;
+  font-weight: 300;
+  vertical-align: top;
+}
+
+.thumbnail.tag {
+  text-align: left;
+  background-color: #222;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 1% 30px 0;
+  border-radius: 8px;
+}
+
+.thumbnail.tag h3 {
+  margin: 0;
+  padding: 0;
+  border-bottom: solid 2px #000;
+}
+
+.thumbnail.tag ul {
+  margin: 0;
+  list-style: none;
+  height: 200px;
+  overflow: auto;
+  padding: 10px;
+}
+
+.thumbnail img {
+  width: 99%;
+  border: 1px solid #000;
+}
+
+.thumbnail a {
+  color: #ccc;
+}
+
+.thumbnail a:hover {
+  color: cornflowerblue;
+  text-decoration: none;
+}
+
+.thumbnail a:hover img {
+  border: 1px solid white;
+}
+
+.thumbnailgroup.float {
+  display: inline-block;
+  width: 23%;
+  margin: 0 0.75%;
+}
+
+.thumbnail.float {
+  width: 100%;
 }
 
 /*　Subimages (secondary images on main photo page) */
@@ -528,7 +615,7 @@ h3.en {
    }
    */
   .thumbnail {
-    width: 31%;
+    /*   width: 31%; */
   }
   .thumbnailgroup.float {
     width: 31%;
@@ -704,8 +791,8 @@ h3.en {
     display: inline;
   }
   .thumbnail {
-    width: 47%;
-    margin: 0 1px 20px 1px;
+    /*    width: 47%; */
+    /*    margin: 0 1px 20px 1px; */
   }
   .thumbnailgroup.float {
     width: 47%;
