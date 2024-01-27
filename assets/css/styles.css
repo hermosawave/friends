@@ -2,8 +2,8 @@
 /* @override 
 	https://hermosawavephotography.com/assets/css/styles.css */
 /* Typekit Asian Font Loader 
-font-family: ryo-gothic-plusn, sans-serif; (200, 400, 700)
- font-family: "noto-sans-cjk-jp", sans-serif; (300, 400, 500, 700, 900)
+font-family: ryo-gothic-plusn, sans-serif; (200, 300, 400, 500, 700) // prev(200, 400, 700)//
+//  font-family: "noto-sans-cjk-jp", sans-serif; (300, 400, 500, 700, 900) //
  */
 /* Global Reset & Standards ---------------------- */
 *, *:before, *:after {
@@ -82,7 +82,7 @@ h4, h5, h6 {
 
 h1 {
   font-size: 30pt;
-  line-height: 32pt;
+  line-height: 38pt;
   padding: 0;
   margin: 10px 0 40px 0;
 }
